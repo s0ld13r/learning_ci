@@ -9,5 +9,5 @@ script:
 - docker run sergeypixoneye/learning_ci npm run test -- --coverage
 deploy:
   provider: gae
-  keyfile: ci-testing-44aa72dccf32.json.enc
+  keyfile: "./ci-testing-44aa72dccf32.json.enc"
   project: ci-testing-217212
